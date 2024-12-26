@@ -7,6 +7,11 @@ npm install --save-exact express@4.17.2 dotenv@10.0.0 body-parser@1.19.1 ejs@3.1
 ```
 npm install --save-exact @babel/core@7.15.4 @babel/node@7.15.4 @babel/preset-env@7.15.4 nodemon@2.0.15
 ```
+- Lỗi: 'babel-node' is not recognized as an internal or external command, operable program or batch file.
+
+```
+cách fix: npm install @babel/node -g
+```
 
 - dotenv được dùng để tải các biến môi trường từ file .env vào process.env
 - body-parser là middleware trong Express dùng để phân tích dữ liệu gửi lên trong các yêu cầu HTTP (request)
